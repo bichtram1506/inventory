@@ -1,0 +1,41 @@
+/* Nội dung của custom.css */
+/* Đây là một ví dụ về quy tắc CSS tùy chỉnh */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* resources/page/css/custom.css */
+/* Styles specific to the edit page */
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb-item {
+    list-style-type: none;
+    display: inline;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb-item:before {
+    content: "›";
+    padding: 0 5px;
+}

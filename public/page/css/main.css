@@ -1,0 +1,270 @@
+/* CSS for user list page */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.control-label {
+    font-weight: bold;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.has-error .form-control {
+    border-color: #dc3545;
+}
+.btn-delete {
+    background-color: #dc3545; /* Màu đỏ */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #007bff; /* Màu xanh */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.small-avatar {
+    width: 50px; /* Đặt chiều rộng của ảnh */
+    height: 50px; /* Đặt chiều cao của ảnh */
+    border-radius: 50%; /* Bo góc của ảnh để nó trở thành hình tròn */
+}
+.alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.pagination-link {
+    font-size: 14px; /* Kích thước chữ */
+    padding: 5px 10px; /* Kích thước nút */
+    border-radius: 4px; /* Độ cong của góc */
+    /* Thêm các thuộc tính khác tùy thuộc vào ý muốn của bạn */
+}
+
+.pagination-link:hover {
+    background-color: #f3f4f6; /* Màu nền khi di chuột vào */
+    /* Thêm các thuộc tính khác tùy thuộc vào ý muốn của bạn */
+}
+  /* CSS cho bảng danh sách */
+  .table-container {
+    margin-top: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+    background-color: #ddd;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-group .btn {
+    margin-right: 5px;
+}
+
+    .pagination .page-link {
+        font-size: 14px; /* Điều chỉnh kích thước font */
+        padding: 5px 10px; /* Điều chỉnh kích thước padding */
+    }
+
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    z-index: 9999; /* Đảm bảo thông báo hiển thị trên tất cả các phần tử khác */
+}
+
+#alert-message {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+      .alert-heading {
+        color: inherit; }
+      
+      .alert-link {
+        font-weight: 700; }
+      
+      .alert-dismissible {
+        padding-right: 4rem; }
+        .alert-dismissible .close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 0.75rem 1.25rem;
+          color: inherit; }
+      
+      .alert-primary {
+        color: #004085;
+        background-color: #cce5ff;
+        border-color: #b8daff; }
+        .alert-primary hr {
+          border-top-color: #9fcdff; }
+        .alert-primary .alert-link {
+          color: #002752; }
+      
+      .alert-secondary {
+        color: #383d41;
+        background-color: #e2e3e5;
+        border-color: #d6d8db; }
+        .alert-secondary hr {
+          border-top-color: #c8cbcf; }
+        .alert-secondary .alert-link {
+          color: #202326; }
+      
+      .alert-success {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb; }
+        .alert-success hr {
+          border-top-color: #b1dfbb; }
+        .alert-success .alert-link {
+          color: #0b2e13; }
+      
+      .alert-info {
+        color: #0c5460;
+        background-color: #d1ecf1;
+        border-color: #bee5eb; }
+        .alert-info hr {
+          border-top-color: #abdde5; }
+        .alert-info .alert-link {
+          color: #062c33; }
+      
+      .alert-warning {
+        color: #856404;
+        background-color: #fff3cd;
+        border-color: #ffeeba; }
+        .alert-warning hr {
+          border-top-color: #ffe8a1; }
+        .alert-warning .alert-link {
+          color: #533f03; }
+      
+      .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb; }
+        .alert-danger hr {
+          border-top-color: #f1b0b7; }
+        .alert-danger .alert-link {
+          color: #491217; }
+      
+      .alert-light {
+        color: #818182;
+        background-color: #fefefe;
+        border-color: #fdfdfe; }
+        .alert-light hr {
+          border-top-color: #ececf6; }
+        .alert-light .alert-link {
+          color: #686868; }
+      
+      .alert-dark {
+        color: #1b1e21;
+        background-color: #d6d8d9;
+        border-color: #c6c8ca; }
+        .alert-dark hr {
+          border-top-color: #b9bbbe; }
+        .alert-dark .alert-link {
+          color: #040505; }
+
